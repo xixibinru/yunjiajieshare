@@ -1,0 +1,288 @@
+
+#header {
+    width: 100%;
+}
+
+#header .slider {
+    padding: 46.666%;
+    width: 100%;
+    background-size: cover;
+}
+#header .slider {
+    overflow: hidden;
+    position: relative;
+}
+#header .slider ul {
+    width: 100%;
+    padding-bottom:48.6%;
+}
+#header .slider ul li {
+    width:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#header .slider ul li+li{
+    left:100%;
+}
+#header .slider ul li img {
+    width: 100%;
+
+}
+#header .slider ol {
+    position: absolute;
+    left:0;
+    right:0;
+    width:50%;
+    bottom: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+#header .slider ol li {
+    display: inline-block;
+    width: 10%;
+    padding: 4.5% 0;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+#header .slider ol li.current {
+    background-color: #fff;
+}
+#header .slider ol li ~ li {
+    margin-left:10%;
+}
+
+
+
+
+
+
+
+
+
+
+#header .register {
+    position: relative;
+    padding: 40.5% 0 0% 0;
+}
+
+#header .register .register-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -34%;
+    margin: 0 auto;
+    padding: 4.546% 6.667% 4.8% 6.667%;
+    width: 80%;
+    background-color: rgba(245, 246, 255, .8);
+    border-radius: 1rem;
+    box-shadow: 0.8rem 0.8rem 0.8rem rgba(233, 233, 233, .5), -0.8rem 0.8rem 0.8rem rgba(233, 233, 233, .5);
+}
+
+#header .register-info .bgc {
+    padding: 8% 4.6%;
+    width: 100%;
+    background-color: #fff;
+    width: 100%;
+}
+#header .register-info  .hint {
+    margin: 2% 4.6%;
+    font-size: 1.8rem;
+    visibility: hidden;
+}
+#header .register-info .input {
+    position: absolute;
+    font-size: 2.4rem;
+    margin-top: -2.4%;
+}
+
+#header .phone-number .input {
+    width: 60%;
+}
+
+#header .verify-info {
+    position: relative;
+}
+
+#header .verify-info .input {
+    width: 40%;
+}
+
+#header .verify-info .get-verify {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8% 0;
+    width: 34%;
+    background-color: #4cc3ff;
+    font-size: 1.6rem;
+    line-height: 0;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+#header .verify-info .hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+#header .register .register-info .submit-register {
+    display: block;
+    padding: 8% 0;
+    margin: 0 auto;
+    margin-top:8%;
+    background-color: #4cc3ff;
+    border-radius: 0.5rem;
+    font-size: 2.8rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0;
+    cursor: pointer;
+}
+#header .register-info .feedback {
+    display: none;
+    padding: 8% 0;
+    position: absolute;
+    top:20%;
+    left:30%;
+    right:30%;
+    background-color: #4cc3ff;
+    border-radius:  1rem;
+    margin: 0 auto;
+    box-shadow: 0.8rem 0.8rem 0.8rem rgba(233, 233, 233, .5), -0.8rem 0.8rem 0.8rem rgba(233, 233, 233, .5);
+}
+#header .register-info .feedback p{
+    font-size:2.4rem;
+    color: #fff;
+    text-align: center;
+    line-height:0;
+}
+#header .register-info .feedback span {
+    position: absolute;
+    top: 0;
+    right:0;
+    width:10%;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #f00;
+    padding: 5% 0;
+    font-size:1.8rem;
+    text-align: center;
+    line-height:0;
+    cursor: pointer;
+}
+
+#header .register > p {
+    text-align: center;
+    font-size: 2.4rem;
+    letter-spacing: 0.5rem;
+    color: #999;
+}
+
+#service > ul li {
+    margin-top: 8.4%;
+
+}
+
+#service li .service-info {
+    background-repeat: no-repeat;
+    background-position: 96% 0%;
+    background-size: 14.25%;
+}
+
+#service > ul .minbg-01 {
+    background-image: url(../img/share/minbg_01.png);
+}
+
+#service .bg {
+    padding: 20% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#service .bg-01 {
+    background-image: url(../img/share/bg_01.jpg);
+}
+
+#service h3 {
+    padding: 0 4% 6.933% 4%;
+    line-height: 0;
+    font-size: 3.6rem;
+    margin-top: 6.933%;
+}
+
+#service p {
+    padding: 0 4%;
+    color: #919191;
+    font-size: 2.4rem;
+    line-height: 140%;
+}
+
+#service .bg-02 {
+    background-image: url(../img/share/bg_02.jpg);
+}
+
+#service > ul .minbg-02 {
+    background-image: url(../img/share/minbg_02.png);
+}
+
+#service .bg-03 {
+    background-image: url(../img/share/bg_03.jpg);
+}
+
+#service > ul .minbg-03 {
+    background-image: url(../img/share/minbg_03.png);
+}
+
+#service .bg-04 {
+    background-image: url(../img/share/bg_04.jpg);
+}
+
+#service > ul .minbg-04 {
+    background-image: url(../img/share/minbg_04.png);
+}
+
+#footer {
+    position: relative;
+    padding: 0.8% 0;
+    border-top: 1px solid #a6a6a6;
+    margin-top: 8.4%;
+}
+
+#footer h2 {
+    padding: 5.8667% 0;
+    border-radius: 1rem;
+    background-color: #4cc3ff;
+    background-image: url(../img/share/logo.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 43% 50%;
+    width: 11.734%;
+    margin-left: 4%;
+}
+
+#footer .logo-text {
+    position: absolute;
+    left: 17%;
+    top: 6%;
+    padding: 5.8667% 0;
+    width: 14.667%;
+    background-image: url(../img/share/logo_text.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 43% 50%;
+}
+
+#footer .down {
+    position: absolute;
+    right: 4%;
+    top: 9%;
+    width: 25.86%;
+    padding: 5.333% 0;
+    line-height: 0;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #4cc3ff;
+    font-size: 2.8rem;
+    color: #fff;
+}
